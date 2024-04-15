@@ -7,5 +7,5 @@ WORKDIR /app
 # Copy the built JAR file from the build stage into the runtime image
 COPY /target/*.jar app.jar
 
-# Specify the command to run your application
+# Specify the command to run your application 1
 CMD ["java", "-jar", "app.jar"]
